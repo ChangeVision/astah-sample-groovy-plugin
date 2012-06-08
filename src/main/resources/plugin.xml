@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="com.change_vision.astah.groovy_sample.actionSet">
+         <menu
+               id="groovy_sample"
+               label="%menu_group"
+               path="tool/groovy_sample">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="com.change_vision.astah.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/groovy_sample/"
+               id="groovy_sample">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
