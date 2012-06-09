@@ -8,6 +8,7 @@
     <astah.version>6.6</astah.version>
     <astah.edition>all</astah.edition>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <groovy.version>1.8.6</groovy.version>
   </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.change_vision.astah</groupId>
@@ -287,7 +288,7 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-all</artifactId>
-      <version>1.8.6</version>
+      <version>${groovy.version}</version>
     </dependency>
   </dependencies>
 </project>
