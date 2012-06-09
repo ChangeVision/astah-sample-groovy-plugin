@@ -7,6 +7,7 @@
     <plugin.install>true</plugin.install>
     <astah.version>6.6</astah.version>
     <astah.edition>all</astah.edition>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.change_vision.astah</groupId>
