@@ -148,7 +148,6 @@
         <version>2.3.2</version>
         <configuration>
           <compilerId>groovy-eclipse-compiler</compilerId>
-          <verbose>true</verbose>
         </configuration>
         <dependencies>
           <dependency>
